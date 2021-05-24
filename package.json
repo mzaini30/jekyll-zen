@@ -1,0 +1,16 @@
+{
+  "name": "zen-jekyll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "windicss './!(_site)/*.html' './!(_site)/**/*.html' './*.html' -mdto tools/windi.min.css -f windi.config.js & jekyll s --livereload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "windicss": "^3.0.10"
+  }
+}

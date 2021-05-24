@@ -1,0 +1,15 @@
+lockfileVersion: 5.3
+
+specifiers:
+  windicss: ^3.0.10
+
+devDependencies:
+  windicss: 3.0.10
+
+packages:
+
+  /windicss/3.0.10:
+    resolution: {integrity: sha512-ihcGCdgjKloqRr9l072J+eWOddgdUdoEXl89W1wdnaDScz2AT6S6H9znoKf5y3g4Zu1JRTYTqCdYultRxezYpw==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    dev: true
