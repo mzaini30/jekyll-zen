@@ -8,8 +8,40 @@
 	<link rel="stylesheet" href="/tools/windi.min.css">
 
 	<link rel="icon" href="/logo.png" />
+
+	{% seo %}
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C1JX0S4GPW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-C1JX0S4GPW');
+    </script>
+    <script>var id = "c2d4924ab914ef4f70def555618625a7f4aac70f";</script>
+	<script type="text/javascript" src="https://api.sosiago.id/js/tracking.js"></script>
+
+	<style>
+		* {
+			word-wrap: break-word;
+		}
+
+		img {
+			max-width: 100%;
+		}
+	</style>
 </head>
 <body>
-	{{ content }}
+	<div class="px-[10%] py-2 bg-lime-300 sticky top-0 z-2 <md:px-[5%]">
+		<a href="/" class="">
+			<img src="/logo.png" alt="" class="w-10">
+		</a>
+	</div>
+
+	<div class="px-[10%] <md:px-[5%]">
+		{{ content }}
+	</div>
 </body>
 </html>

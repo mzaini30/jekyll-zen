@@ -1,6 +1,14 @@
 ---
 layout: default
-title: Zen
+title: Catatan Zen tentang Segala Fenomena Kehidupan
 ---
 
-<h1 class="bg-green-500 text-center text-5xl py-5 text-white">Hello World...</h1>
+<div class="grid grid-cols-2 gap-2 <md:grid-cols-1 py-3">
+	{% for x in site.posts %}
+		<a href="{{ x.url }}">
+			<img src="{{ x.image }}" alt="" class="rounded border w-full aspect-[10/2] mb-3 block">
+			<span class="bg-amber-300 rounded-xl inline-block text-dark-500 mb-3 py-1 px-3">{{ x.category }}</span>
+			<p class="text-lg font-bold mb-3">{{ x.title }}</p>
+		</a>
+	{% endfor %}
+</div>

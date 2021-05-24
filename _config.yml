@@ -2,3 +2,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+
+permalink: :title/
+
+twitter:
+  username: zenia2020
+  card: summary_large_image
