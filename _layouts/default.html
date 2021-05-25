@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,12 +45,33 @@
 		</a>
 	</div>
 
-	<div class="px-[10%] grid grid-cols-4 <md:grid-cols-1 gap-3 <md:px-[5%]">
-		<div class="col-span-3 <md:col-span-1">
+	<div class="px-[10%] grid grid-cols-6 <md:grid-cols-1 gap-3 <md:px-[5%]">
+		<div class="col-span-4 <md:col-span-1">
 			{{ content }}
 		</div>
-		<div class="<md:hidden">
-			<p class="">Sidebar di sini</p>
+		<div class="<md:hidden col-span-2 <md:col-span-1 p-3">
+			<h2 class="text-red-500 text-center my-3 text-3xl font-800">Random Articles</h2>
+
+			{% assign n = site.posts | size %}
+			{% assign posts = site.posts | sample: n %}
+			{% for x in posts limit: 5 %}
+				<a href="{{ x.url }}" class="mb-3 block">
+					<div class="flex items-center">
+						<img src="{{ x.image }}" alt="" class="w-20 h-20 mr-2 border rounded object-cover">
+						<div class="">
+							<p class="font-bold">{{ x.title }}</p>
+						</div>
+					</div>
+				</a>
+			{% endfor %}
+
+			<h2 class="text-red-500 text-center my-3 text-3xl font-800">Kategori</h2>
+			<div class="divide-y-2">
+				{% for x in site.categories %}
+					<div class="block py-2">{{ x[0] }}</div>
+				{% endfor %}
+			</div>
+
 		</div>
 	</div>
 </body>
