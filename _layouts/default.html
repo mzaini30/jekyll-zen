@@ -42,8 +42,13 @@
 		</a>
 	</div>
 
-	<div class="px-[10%] <md:px-[5%]">
-		{{ content }}
+	<div class="px-[10%] grid grid-cols-4 <md:grid-cols-1 gap-3 <md:px-[5%]">
+		<div class="col-span-3 <md:col-span-1">
+			{{ content }}
+		</div>
+		<div class="<md:hidden">
+			<p class="">Sidebar di sini</p>
+		</div>
 	</div>
 </body>
 </html>

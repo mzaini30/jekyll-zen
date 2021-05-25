@@ -3,10 +3,11 @@ layout: default
 title: Catatan Zen tentang Segala Fenomena Kehidupan
 ---
 
-<div class="grid grid-cols-2 gap-2 <md:grid-cols-1 py-3">
+<div class="grid grid-cols-3 gap-2 <md:grid-cols-1 py-3">
 	{% for x in site.posts %}
 		<a href="{{ x.url }}">
-			<img src="{{ x.image }}" alt="" class="rounded border w-full aspect-[10/2] mb-3 block">
+			<img src="{{ x.image }}" alt="" class="rounded border w-full h-[150px] object-cover mb-3 block">
+			<!-- <span class="bg-green-500 mb-3 aspect-[3/2] block">halo</span> -->
 			<span class="bg-amber-300 rounded-xl inline-block text-dark-500 mb-3 py-1 px-3">{{ x.category }}</span>
 			<p class="text-lg font-bold mb-3">{{ x.title }}</p>
 		</a>
