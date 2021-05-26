@@ -46,21 +46,23 @@
 
 		<div class="" x-data='menuMobile()'>
 			<div @click='isiMenu = true' class="md:hidden font-bold cursor-pointer select-none">Menu</div>
-			<div class="h-screen overflow-auto p-3 absolute w-full top-0 left-0 bg-light-500" x-show='isiMenu'>
-				<div class="text-5xl sticky top-0 cursor-pointer select-none text-right" @click='isiMenu = false'>&times;</div>
-				<div class="prose max-w-none">
-					{% assign menu = site.menu | sort: 'nama' %}
-					{% for x in menu %}
-						<h2>{{ x.nama }}</h2>
-						{% assign anakMenu = x.link | sort: 'nama' %}
-						<ol>
-							{% for y in anakMenu %}
-								<li><a href="{{ y.link }}">{{ y.nama }}</a></li>							
-							{% endfor %}
-						</ol>
-					{% endfor %}
+			<template x-if='isiMenu'>
+				<div class="h-screen overflow-auto p-3 absolute w-full top-0 left-0 bg-light-500">
+					<div class="text-5xl sticky top-0 cursor-pointer select-none text-right" @click='isiMenu = false'>&times;</div>
+					<div class="prose max-w-none">
+						{% assign menu = site.menu | sort: 'nama' %}
+						{% for x in menu %}
+							<h2>{{ x.nama }}</h2>
+							{% assign anakMenu = x.link | sort: 'nama' %}
+							<ol>
+								{% for y in anakMenu %}
+									<li><a href="{{ y.link }}">{{ y.nama }}</a></li>							
+								{% endfor %}
+							</ol>
+						{% endfor %}
+					</div>
 				</div>
-			</div>
+			</template>
 		</div>
 
 		<script>
