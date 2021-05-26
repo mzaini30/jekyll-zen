@@ -1,0 +1,25 @@
+---
+layout: post
+title: Daftar Isi
+image: https://clipground.com/images/pictures-of-a-stack-of-books-5.jpg
+category: information
+---
+
+{% assign menu = site.categories %}
+{% for x in menu %}
+	<h2 id="{{ x[0] | slugify }}" class="capitalize">{{ x[0] }}</h2>
+	<ol>
+		{% assign semuaPostingan = site.posts | sort: 'title' %}
+		{% for y in semuaPostingan %}
+			{% if y.category == x[0] %}
+				<li><a href="{{ y.url }}">{{ y.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+	</ol>
+{% endfor %}
+
+<style>
+	h2 {
+		scroll-margin-top: 90px;
+	}
+</style>

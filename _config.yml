@@ -8,3 +8,15 @@ permalink: :title/
 twitter:
   username: zenia2020
   card: summary_large_image
+
+menu:
+  - nama: Informasi
+    link:
+      - nama: Privacy Policy
+        link: /privacy-policy/
+      - nama: Disclaimer
+        link: /disclaimer/
+      - nama: About Me
+        link: /about-me/
+      - nama: Daftar Isi
+        link: /daftar-isi/
