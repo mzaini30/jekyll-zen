@@ -20,3 +20,11 @@ menu:
         link: /about-me/
       - nama: Daftar Isi
         link: /daftar-isi/
+  - nama: WebDev
+    link:
+      - nama: Svelte
+        link: /daftar-isi/#svelte
+      - nama: JavaScript
+        link: /daftar-isi/#javascript
+      - nama: Jekyll
+        link: /daftar-isi/#jekyll

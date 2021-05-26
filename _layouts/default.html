@@ -6,7 +6,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ page.title }}</title>
 
 	<script data-ad-client="ca-pub-2408628281705149" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -44,17 +43,47 @@
 		<a href="/" class="">
 			<img src="/logo.png" alt="" class="w-10">
 		</a>
-		<div class="<md:hidden" x-data='dropdown()'>
+
+		<div class="" x-data='menuMobile()'>
+			<div @click='isiMenu = true' class="md:hidden font-bold cursor-pointer select-none">Menu</div>
+			<div class="h-screen overflow-auto p-3 absolute w-full top-0 left-0 bg-light-500" x-show='isiMenu'>
+				<div class="text-5xl sticky top-0 cursor-pointer select-none text-right" @click='isiMenu = false'>&times;</div>
+				<div class="prose max-w-none">
+					{% assign menu = site.menu | sort: 'nama' %}
+					{% for x in menu %}
+						<h2>{{ x.nama }}</h2>
+						{% assign anakMenu = x.link | sort: 'nama' %}
+						<ol>
+							{% for y in anakMenu %}
+								<li><a href="{{ y.link }}">{{ y.nama }}</a></li>							
+							{% endfor %}
+						</ol>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+
+		<script>
+			function menuMobile(){
+				return {
+					isiMenu: false
+				}
+			}
+		</script>
+
+		<div class="<md:hidden flex" x-data='dropdown()'>
 
 			{% assign menu = site.menu | sort: 'nama' %}
 			{% for x in menu %}
-				<div class="font-bold cursor-pointer select-none" @click='menu.{{ x.nama | slugify }} = !menu.{{ x.nama | slugify }}'>{{ x.nama }}</div>
+				<div class="relative">
+					<div class="font-bold cursor-pointer inline-block ml-5 select-none" @click='menu.{{ x.nama | slugify }} = !menu.{{ x.nama | slugify }}'>{{ x.nama }}</div>
 
-				{% assign anakMenu = x.link | sort: 'nama' %}
-				<div class="absolute divide-y-2 mt-5 bg-lime-300 rounded" x-show='menu.{{ x.nama | slugify }}'>
-					{% for y in anakMenu %}
-						<a href="{{ y.link }}" class="block p-2 px-5">{{ y.nama }}</a>
-					{% endfor %}
+					{% assign anakMenu = x.link | sort: 'nama' %}
+					<div class="absolute divide-y-2 mt-5 bg-lime-300 rounded" x-show='menu.{{ x.nama | slugify }}'>
+						{% for y in anakMenu %}
+							<a href="{{ y.link }}" class="block p-2 px-5">{{ y.nama }}</a>
+						{% endfor %}
+					</div>
 				</div>
 
 			{% endfor %}
@@ -96,7 +125,7 @@
 			<h2 class="text-red-500 text-center my-3 pt-3 text-3xl font-800">Kategori</h2>
 			<div class="divide-y-2">
 				{% for x in site.categories %}
-					<div class="block py-2">{{ x[0] }}</div>
+					<a href="/daftar-isi/#{{ x[0] | slugify }}" class="block py-2">{{ x[0] }}</a>
 				{% endfor %}
 			</div>
 
