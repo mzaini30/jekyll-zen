@@ -49,7 +49,7 @@ layout: compress
 
 			{% assign menu = site.menu | sort: 'nama' %}
 			{% for x in menu %}
-				<div class="font-bold cursor-pointer" @click='menu.{{ x.nama | slugify }} = !menu.{{ x.nama | slugify }}'>{{ x.nama }}</div>
+				<div class="font-bold cursor-pointer select-none" @click='menu.{{ x.nama | slugify }} = !menu.{{ x.nama | slugify }}'>{{ x.nama }}</div>
 
 				{% assign anakMenu = x.link | sort: 'nama' %}
 				<div class="absolute divide-y-2 mt-5 bg-lime-300 rounded" x-show='menu.{{ x.nama | slugify }}'>
