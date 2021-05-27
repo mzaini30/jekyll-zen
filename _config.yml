@@ -23,6 +23,12 @@ menu:
         link: /about-me/
       - nama: Daftar Isi
         link: /daftar-isi/
+  - nama: Lifestyle
+    link:
+      - nama: Life
+        link: /daftar-isi/#life
+      - nama: Linux
+        link: /daftar-isi/#linux
   - nama: WebDev
     link:
       - nama: Svelte

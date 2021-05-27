@@ -56,7 +56,7 @@
 							{% assign anakMenu = x.link | sort: 'nama' %}
 							<ol>
 								{% for y in anakMenu %}
-									<li><a href="{{ y.link }}">{{ y.nama }}</a></li>							
+									<li><a href="{{ y.link }}" @click='isiMenu = false'>{{ y.nama }}</a></li>							
 								{% endfor %}
 							</ol>
 						{% endfor %}
