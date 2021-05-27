@@ -9,6 +9,9 @@ twitter:
   username: zenia2020
   card: summary_large_image
 
+paginate: 9
+paginate_path: /halaman/:num/
+
 menu:
   - nama: Informasi
     link:

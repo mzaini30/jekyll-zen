@@ -4,7 +4,7 @@ title: Catatan Zen tentang Segala Fenomena Kehidupan
 ---
 
 <div class="grid grid-cols-3 gap-2 <md:grid-cols-1 py-3">
-	{% for x in site.posts %}
+	{% for x in paginator.posts %}
 		<a href="{{ x.url }}">
 			<img src="{{ x.image }}" alt="" class="rounded border w-full h-[150px] object-cover mb-3 block">
 			<span class="bg-amber-300 rounded-xl inline-block text-dark-500 mb-3 py-1 px-3">{{ x.category }}</span>
@@ -12,3 +12,11 @@ title: Catatan Zen tentang Segala Fenomena Kehidupan
 		</a>
 	{% endfor %}
 </div>
+
+{% if paginator.next_page %}
+	<div class="flex justify-between">
+		<div class=""></div>
+		<a href="{{ paginator.next_page_path }}" class="border pb-2 pt-3 px-7 mb-3 rounded-3xl text-lime-500 border-lime-500 font-bold border-3">Selanjutnya &rarr;</a>
+		<div class=""></div>
+	</div>
+{% endif %}
