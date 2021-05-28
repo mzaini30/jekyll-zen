@@ -36,11 +36,11 @@ website:
 
 {% assign website = page.website | sort: 'nama' %}
 {% for x in website %}
-	<a href="{{ x.link }}" class="grid grid-cols-4 <md:grid-cols-1 gap-3 <md:flex-col items-center p-3 border rounded shadow bg-light-600 mb-3 !no-underline">
+	<a href="{{ x.link }}" class="grid grid-cols-4 <md:grid-cols-1 gap-3 <md:flex-col items-center p-3 border rounded-lg shadow-xl bg-violet-500 mb-3 !no-underline">
 		<img src="{{ x.image }}" alt="" class="w-full">
 		<span class="col-span-3 <md:col-span-1">
-			<div class="font-bold">{{ x.nama }}</div>
-			<div class="mb-2">{{ x.deskripsi }}</div>
+			<div class="font-bold text-white">{{ x.nama }}</div>
+			<div class="mb-2 text-white">{{ x.deskripsi }}</div>
 			{% assign teknologi = x.teknologi | sort %}
 			{% for y in teknologi %}
 				<span class="py-1 px-3 inline-block mr-1 mb-2 text-green-800 bg-green-200 rounded-3xl">{{ y }}</span>
