@@ -9,6 +9,15 @@ layout: default
 <img src="{{ page.image }}" alt="" class="mx-auto mb-3 w-full rounded-xl border h-[300px] object-cover block">
 <div class="prose max-w-none content my-3">
 	{{ content }}
+
+    <h2 class="">Tulisan Lainnya...</h2>
+    <ol>
+        {% assign n = site.posts | size %}
+        {% assign posts = site.posts | sample: n %}
+        {% for x in posts limit: 5 %}
+            <li><a href="{{ x.url }}" class="">{{ x.title }}</a></li>
+        {% endfor %}
+    </ol>
 </div>
 
 <div id="disqus_thread"></div>
