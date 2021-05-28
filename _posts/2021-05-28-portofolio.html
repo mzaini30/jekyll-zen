@@ -22,18 +22,28 @@ website:
       - SCSS
       - Excalibur
       - SvelteKit
+
+  - nama: Asatour
+    deskripsi: Website yang menjabarkan layanan travel milik Asa Tour
+    link: https://asatour.id/
+    teknologi:
+      - Bootstrap
+      - SCSS
+      - Excalibur
+      - Routify
+    image: https://i.ibb.co/CmqgLvk/asatour.png
 ---
 
 {% assign website = page.website | sort: 'nama' %}
 {% for x in website %}
-	<a href="{{ x.link }}" class="flex <md:flex-col items-center p-3 border rounded shadow bg-light-600 mb-3 !no-underline">
-		<img src="{{ x.image }}" alt="" class="w-[25%] <md:w-full <md:pb-2 pr-3">
-		<span class="">
+	<a href="{{ x.link }}" class="grid grid-cols-4 <md:grid-cols-1 gap-3 <md:flex-col items-center p-3 border rounded shadow bg-light-600 mb-3 !no-underline">
+		<img src="{{ x.image }}" alt="" class="w-full">
+		<span class="col-span-3 <md:col-span-1">
 			<div class="font-bold">{{ x.nama }}</div>
 			<div class="mb-2">{{ x.deskripsi }}</div>
 			{% assign teknologi = x.teknologi | sort %}
 			{% for y in teknologi %}
-				<span class="py-1 px-3 mr-1 mb-1 text-green-800 bg-green-200 rounded-3xl">{{ y }}</span>
+				<span class="py-1 px-3 inline-block mr-1 mb-2 text-green-800 bg-green-200 rounded-3xl">{{ y }}</span>
 			{% endfor %}
 		</span>
 	</a>
