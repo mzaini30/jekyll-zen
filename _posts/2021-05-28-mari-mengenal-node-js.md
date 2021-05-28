@@ -144,7 +144,7 @@ function perintahnya(){
 module.exports = perintahnya
 ```
 
-**Module JS (cjs)**
+**Module JS (mjs; yang kita pakai sekarang ini)**
 
 _Import_
 
