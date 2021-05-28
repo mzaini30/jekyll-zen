@@ -4,13 +4,20 @@ layout: default
 
 <link rel="stylesheet" href="/tools/monokai.css">
 
+<style>
+    .content img {
+        margin: auto;
+        display: block;
+    }
+</style>
+
 <a href='/daftar-isi/#{{ page.category | slugify }}' class="bg-amber-300 rounded-xl inline-block text-dark-500 my-3 py-1 px-3">{{ page.category }}</a>
 <h1 class="text-6xl mb-3 <md:text-xl font-bold">{{ page.title }}</h1>
 <img src="{{ page.image }}" alt="" class="mx-auto mb-3 w-full rounded-xl border h-[300px] object-cover block">
 <div class="prose max-w-none content my-3">
 	{{ content }}
 
-    <p class="text-center"><a href="https://github.com/mzaini30/jekyll-zen/edit/master/{{ page.path }}" rel="source"><< sarankan perubahan postingan ini >></a></p>
+    <p class="text-center"><a href="https://github.com/mzaini30/jekyll-zen/edit/master/{{ page.path }}" class='!text-green-700' rel="source"><< sarankan perbaikan untuk postingan ini >></a></p>
 
     <h2 class="">Tulisan Lainnya...</h2>
     <ol>
@@ -41,10 +48,3 @@ layout: default
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-<style>
-	.content img {
-		margin: auto;
-		display: block;
-	}
-</style>
