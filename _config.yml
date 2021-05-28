@@ -23,6 +23,8 @@ menu:
         link: /about-me/
       - nama: Daftar Isi
         link: /daftar-isi/
+      - nama: Portofolio
+        link: /portofolio/
   - nama: Lifestyle
     link:
       - nama: Life

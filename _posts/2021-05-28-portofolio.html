@@ -1,0 +1,40 @@
+---
+layout: post
+title: Portofolio
+image: https://fullview.ca/wp-content/uploads/2017/04/Website-Design-new-mcw62qvkkid732kc5zwtq0c60vv07btatfo02tt6y2.jpg
+category: informasi
+
+website:
+  - nama: Biro Psikologi Prima Solutions
+    deskripsi: Website official dari biro psikologi Prima Solutions yang berisi dengan layanan psikologi online
+    link: https://prima-solutions.vercel.app
+    image: https://i.ibb.co/HFVqy6q/prima-solutions.png
+    teknologi:
+      - SvelteKit
+      - Windi
+
+  - image: https://i.ibb.co/Hrpp2LZ/mabaiz.png
+    link: https://web-mabaiz.vercel.app/
+    nama: Website Madrasah Baitul Izzah
+    deskripsi: Website yang menjelaskan tentang berbagai program unggulan pondok pesantren tahfidzul Quran Baitul Izzah
+    teknologi:
+      - Bootstrap
+      - SCSS
+      - Excalibur
+      - SvelteKit
+---
+
+{% assign website = page.website | sort: 'nama' %}
+{% for x in website %}
+	<a href="{{ x.link }}" class="flex <md:flex-col items-center p-3 border rounded shadow bg-light-600 mb-3 !no-underline">
+		<img src="{{ x.image }}" alt="" class="w-[25%] <md:w-full <md:pb-2 pr-3">
+		<span class="">
+			<div class="font-bold">{{ x.nama }}</div>
+			<div class="mb-2">{{ x.deskripsi }}</div>
+			{% assign teknologi = x.teknologi | sort %}
+			{% for y in teknologi %}
+				<span class="py-1 px-3 mr-1 mb-1 text-green-800 bg-green-200 rounded-3xl">{{ y }}</span>
+			{% endfor %}
+		</span>
+	</a>
+{% endfor %}

@@ -5,7 +5,7 @@ image: https://clipground.com/images/pictures-of-a-stack-of-books-5.jpg
 category: information
 ---
 
-{% assign menu = site.categories %}
+{% assign menu = site.categories | sort %}
 {% for x in menu %}
 	<h2 id="{{ x[0] | slugify }}" class="capitalize">{{ x[0] }}</h2>
 	<ol>
