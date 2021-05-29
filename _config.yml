@@ -39,3 +39,5 @@ menu:
         link: /daftar-isi/#javascript
       - nama: Jekyll
         link: /daftar-isi/#jekyll
+      - nama: PHP
+        link: /daftar-isi/#php
