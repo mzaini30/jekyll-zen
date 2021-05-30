@@ -78,10 +78,10 @@
 			{% assign menu = site.menu | sort: 'nama' %}
 			{% for x in menu %}
 				<div class="relative">
-					<div class="font-bold cursor-pointer inline-block ml-5 select-none" @click='menu.{{ x.nama | slugify }} = !menu.{{ x.nama | slugify }}'>{{ x.nama }}</div>
+					<div class="font-bold cursor-pointer inline-block ml-5 select-none" @click='menu["{{ x.nama | slugify }}"] = !menu["{{ x.nama | slugify }}"]'>{{ x.nama }}</div>
 
 					{% assign anakMenu = x.link | sort: 'nama' %}
-					<template x-if='menu.{{ x.nama | slugify }}'>
+					<template x-if='menu["{{ x.nama | slugify }}"]'>
 						<div class="absolute divide-y-2 mt-5 bg-lime-300 rounded">
 							{% for y in anakMenu %}
 								<a href="{{ y.link }}" class="block p-2 px-5">{{ y.nama }}</a>
