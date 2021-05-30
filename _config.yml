@@ -29,8 +29,11 @@ menu:
     link:
       - nama: Life
         link: /daftar-isi/#life
+  - nama: Hacker Room
       - nama: Linux
         link: /daftar-isi/#linux
+      - nama: Android
+        link: /daftar-isi/#android
   - nama: WebDev
     link:
       - nama: Svelte
