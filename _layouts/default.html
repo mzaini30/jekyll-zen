@@ -98,7 +98,7 @@
 				return {
 					menu: {
 						{% for x in menu %}
-							{{ x.nama | slugify }}: false,
+							'{{ x.nama | slugify }}': false,
 						{% endfor %}
 					}
 				}
