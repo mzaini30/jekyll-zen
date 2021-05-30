@@ -30,6 +30,7 @@ menu:
       - nama: Life
         link: /daftar-isi/#life
   - nama: Hacker Room
+    link:
       - nama: Linux
         link: /daftar-isi/#linux
       - nama: Android
