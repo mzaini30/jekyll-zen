@@ -49,7 +49,7 @@
 			<template x-if='isiMenu'>
 				<div class="h-screen overflow-auto p-3 absolute w-full top-0 left-0 bg-light-500">
 					<div class="text-5xl sticky top-0 cursor-pointer select-none text-right" @click='isiMenu = false'>&times;</div>
-					<div class="prose max-w-none">
+					<div class='prose max-w-none'>
 						{% assign menu = site.menu | sort: 'nama' %}
 						{% for x in menu %}
 							<h2>{{ x.nama }}</h2>
