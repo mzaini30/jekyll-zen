@@ -29,6 +29,8 @@ menu:
     link:
       - nama: Life
         link: /daftar-isi/#life
+      - nama: Writing
+        link: /daftar-isi/#writing
   - nama: Hacker Room
     link:
       - nama: Linux
