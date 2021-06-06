@@ -22,4 +22,5 @@ replace({
 	paths: ['build'],
 	recursive: true,
 	include: '*.html,*.css'
-})```
+})
+```
