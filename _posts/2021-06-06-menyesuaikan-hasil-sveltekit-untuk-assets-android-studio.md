@@ -13,7 +13,7 @@ replace({
 	replacement: '/./$1/index.html',
 	paths: ['build'],
 	recursive: true,
-	include: '*.html'
+	include: '*.html,*.css'
 })
 
 replace({
@@ -21,6 +21,5 @@ replace({
 	replacement: 'file:///android_asset/build/',
 	paths: ['build'],
 	recursive: true,
-	include: '*.html'
-})
-```
+	include: '*.html,*.css'
+})```
