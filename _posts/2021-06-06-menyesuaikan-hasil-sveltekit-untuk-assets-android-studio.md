@@ -12,13 +12,15 @@ replace({
 	regex: '/\./(.+)#',
 	replacement: '/./$1/index.html',
 	paths: ['build'],
-	recursive: true
+	recursive: true,
+	include: '*.html'
 })
 
 replace({
 	regex: '/\./',
 	replacement: 'file:///android_asset/build/',
 	paths: ['build'],
-	recursive: true
+	recursive: true,
+	include: '*.html'
 })
 ```
