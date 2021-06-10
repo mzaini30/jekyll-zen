@@ -8,7 +8,8 @@ category: svelte
 ```javascript
 import replace from 'replace'
 
-// Contoh: /./about
+// Contoh: /./about#
+// Menjadi: file:///android_asset/build/about/index.html
 replace({
 	regex: '/\./(.+)#',
 	replacement: '/./$1/index.html',
@@ -18,6 +19,7 @@ replace({
 })
 
 // Contoh: /./alpine.min.js
+// Menjadi: file:///android_asset/build/alpine.min.js
 replace({
 	regex: '/\./',
 	replacement: 'file:///android_asset/build/',
