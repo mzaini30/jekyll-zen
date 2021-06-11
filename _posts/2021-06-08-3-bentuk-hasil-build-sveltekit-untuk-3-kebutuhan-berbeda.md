@@ -138,7 +138,7 @@ Maka, kalau dalam bentuk Alpine JS, akan menjadi:
 	<p>Masukkan Nama:</p>
 	<input type="text" x-model='nama'>
 	<p>Hai <span x-text='nama'></span></p>
-	<p><a x-bind:href="'/' + nama">Klik untuk menuju ke <span x-text='nama'></span></a></p>
+	<p><a href='/' x-bind:href="'/./' + nama">Klik untuk menuju ke <span x-text='nama'></span></a></p>
 </div>
 
 <div class="">
