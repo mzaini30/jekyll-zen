@@ -9,10 +9,10 @@ category: svelte
 import replace from 'replace'
 
 // Contoh: /./about#
-// Menjadi: file:///android_asset/build/about/index.html
+// Menjadi: file:///android_asset/build/about/index.html#
 replace({
-	regex: '/\./(.+)#',
-	replacement: '/./$1/index.html',
+	regex: '/\./(.*)#',
+	replacement: '/./$1/index.html#',
 	paths: ['build'],
 	recursive: true,
 	include: '*.html,*.css'
@@ -23,6 +23,14 @@ replace({
 replace({
 	regex: '/\./',
 	replacement: 'file:///android_asset/build/',
+	paths: ['build'],
+	recursive: true,
+	include: '*.html,*.css'
+})
+
+replace({
+	regex: 'build//index.html',
+	replacement: 'build/index.html',
 	paths: ['build'],
 	recursive: true,
 	include: '*.html,*.css'
