@@ -38,6 +38,14 @@
 		img {
 			max-width: 100%;
 		}
+
+		/*@media (max-width: 767.9px){*/
+			.banner img {
+				display: block;
+				margin: auto;
+				margin-bottom: 10px;
+			}
+		/*}*/
 	</style>
 </head>
 <body>
@@ -111,8 +119,11 @@
 	<div class="px-[10%] grid grid-cols-6 <md:grid-cols-1 gap-3 <md:px-[5%]">
 		<div class="col-span-4 <md:col-span-1">
 			{{ content }}
-			<div class="grid grid-cols-4 <md:grid-cols-1">
+			<div class="grid grid-cols-4 flex items-center <md:grid-cols-1 banner">
+
 				<a href="https://sahabatblogger.or.id/pasang-banner-ksb/" target="_blank"><img src="https://sahabatblogger.or.id/wp-content/uploads/2018/11/BANNER-300x250Px.png" alt="komunitas sahabat blogger" /></a>
+				<a href="//www.dmca.com/Protection/Status.aspx?ID=a953a618-3cdc-41a8-8cf1-2cd91c876999" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=a953a618-3cdc-41a8-8cf1-2cd91c876999"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+
 			</div>
 		</div>
 		<div class="<md:hidden col-span-2 <md:col-span-1 p-3">
