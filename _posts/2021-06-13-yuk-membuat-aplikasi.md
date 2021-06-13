@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Yuk Membuat Aplikasi
-image: https://fthmb.tqn.com/bckFmpAISOUMgAfroSpkTnGawqE=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/Nexus-5_with_android_logo-56a401095f9b58b7d0d4e6af.jpg
+image: https://cdn1.techhq.com/wp-content/uploads/2020/10/shutterstock_1096975310-861x484.png
 category: life
 ---
 
