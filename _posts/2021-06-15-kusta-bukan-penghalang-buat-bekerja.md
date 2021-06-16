@@ -2,18 +2,20 @@
 layout: post
 title: Kusta Bukan Penghalang Buat Bekerja!
 category: life
-image: https://sambadenglish.com/wp-content/uploads/2020/10/work.jpg
+image: https://i.ibb.co/5jgH5YL/empat.png
 ---
 
 Kusta adalah suatu penyakit kulit yang memiliki ciri-ciri bercak-bercak putih atau merah, diikuti oleh mati rasa pada bagian tersebut. Penyebabnya adalah infeksi bakteri yang nantinya akan menyerang saraf tepi jika tidak segera ditangani. Saraf-saraf tepi yang diserang ini akan menyebabkan terbentuknya diformitas (kelainan struktur tubuh) sehingga bisa mengganggu motorik, kesulitan untuk menggenggam sesuatu, sensorik menjadi kurang peka, bahkan sampai menyebabkan rungu dan netra.
 
 Kusta merupakan penyakit yang sulit untuk menular. Satu-satunya bentuk penularan kusta adalah sentuhan fisik untuk periode waktu yang sangat lama. Jadi, bukan hanya sekali-dua kali sentuhan fisik langsung tertular kusta. Untuk pengobatannya, jika mengalami gejala atau ciri-ciri terkena kusta, langsung saja mendatangi puskesmas terdekat supaya langsung segera ditangani.
 
+![Angga Yanuar](https://i.ibb.co/87hhK1r/angga-yanuar.png)
+
 Menurut Pak Angga Yanuar, sebagai manajer proyek inklusi disabilitas NLR Indonesia, Indonesia menempati posisi ketiga terbanyak warga yang mengidap penyakit kusta, setelah negara India dan Brasil. Pada tahun 2000-an, terdapat 20.000 masyarakat Indonesia yang mengidap kusta. Namun, kabar baiknya, pada tahun 2015 hingga hari ini, hanya sekitar 15.000 sampai 17.000 orang yang mengalami kusta. Penyebab turunnya masyarakat yang terkena kusta adalah karena semakin seringnya sosialisasi terhadap penyakit kusta, semakin dijaga kebersihan, dan berbagai faktor lain. Tapi, terdapat 9 provinsi yang masih tinggi jumlah warga yang terkena kusta. Di antaranya adalah di Papua, Sulawesi Selatan, Nusa Tenggara Timur, Jawa Timur, dan Sumatra Barat.
 
 ## Stigma di Masyarakat terhadap Penyintas Kusta
 
-Di masyarakat yang belum teredukasi dengan baik tentang penyakit kusta, masih banyak masyarakat yang menganggap bahwa orang yang sudah sembuh dari kusta itu seperti orang yang masih mengidap kusta. Hal ini dikarenakan oleh stigma dari orang-orang zaman dulu tentang kusta yaitu:
+Di masyarakat yang belum [teredukasi](/sejak-kapan-sebaiknya-anak-diajarkan-ilmu-agama/) dengan baik tentang penyakit kusta, masih banyak masyarakat yang menganggap bahwa orang yang sudah sembuh dari kusta itu seperti orang yang masih mengidap kusta. Hal ini dikarenakan oleh stigma dari orang-orang zaman dulu tentang kusta yaitu:
 
 - Kusta adalah kutukan
 - Kusta mudah menular
@@ -23,9 +25,11 @@ Sehingga, banyak masyarakat yang menjauhi orang-orang yang mengidap penyakit kus
 
 Kemudian, stigma itu juga bisa muncul dari masyarakat dan teman, sebagaimana yang diceritakan oleh Muhammad Arfah, salah seorang pemuda OYPMK (orang yang pernah mengalami kusta), bahwa ketika ia dulu kelas 3 SMP, dia sering diolok-olok sama teman-temannya hanya karena ia mengidap kusta; kulit yang hitam tapi dengan belang-belang di muka. Teman-temannya menyebutnya sebagai monster, bahkan ada yang menyebutnya dengan roti gosong. Olokan-olokan itu sempat membuatnya minder hingga akhirnya jarang ke sekolah. Akan tetapi, pihak keluarganya senantiasa mendukungnya hingga akhirnya ia bisa survive dan berusaha berobat supaya bisa sembuh dari penyakitnya itu.
 
-Kini, ia sudah sembuh dari penyakitnya dan bisa bekerja dengan orang-orang lainnya.
+Kini, ia sudah sembuh dari penyakitnya dan bisa [bekerja](/mengapa-kita-bekerja/) dengan orang-orang lainnya.
 
-Arfah senantiasa memotivasi orang-orang yang mengidap penyakit kusta untuk bisa survive dengan menunjukkan bahwa dirinya bisa sembuh maka orang lain yang mengidap penyakit kusta pun bisa sembuh juga. Jangan sampai takut dengan obat. Kita semua itu sama; baik yang mengalami penyakit kusta maupun yang tidak.
+![Muhammad Arfah](https://i.ibb.co/M2qgV7n/tiga.png)
+
+Arfah senantiasa memotivasi orang-orang yang mengidap penyakit kusta untuk bisa survive dengan menunjukkan bahwa dirinya bisa sembuh maka orang lain yang mengidap penyakit kusta pun bisa sembuh juga. Jangan sampai takut dengan obat. Kita semua itu sama; baik yang mengalami penyakit kusta maupun yang tidak. Dia juga mau membuka mata dan hatinya untuk mendengarkan [curhat](https://www.kapancurhat.com/) dari berbagai penyintas kusta lainnya.
 
 ## Penyintas Kusta Juga Bisa Bekerja
 
@@ -57,4 +61,10 @@ Untuk program magang Juli hingga Agustus 2021, sudah terdapat 21 pelamar di NLR 
 
 Selain tantangan berupa fasilitas sebagaimana yang sudah aku sebutkan di atas tadi, terkadang tantangan juga berasal dari pelanggan, faktor yang berada di luar kendali perusahaan. Pernah ada pelanggan yang menanyakan kepada Zukirah Ilmiana selaku owner PT Anugrah Frozen Food tentang salah satu pegawai yang nampak sebagai penyintas kusta. Maka, Bu Zukirah mengatakan bahwa semua pegawainya adalah sama, tidak ada perbedaan antara orang yang merupakan penyintas kusta maupun yang bukan. Asalkan mereka bisa bekerja dengan baik, maka tidak masalah.
 
+![Zukirah Ilmiana](https://i.ibb.co/8dNcTHT/zukirah-ilmiana.png)
+
 Bahkan, menurut Bu Zukirah, pegawainya yang merupakan penyintas kusta itu mampu menyerap informasi lebih baik daripada pegawainya yang lain. Sehingga ketika ia mengajarkan sesuatu kepadanya, pegawainya itu mampu menerima pelajaran itu dengan lebih cepat.
+
+Itulah ringkasan seminar Memberikan Kesempatan Kerja Bagi Disabilitas dan Orang yang Pernah Mengalami Kusta? Kenapa Tidak, yang diadakan oleh Kantor Berita Radio dalam tajuk Ruang Publik, pada 15 Juni 2021 pukul 09.00 WIB.
+
+![Empat](https://i.ibb.co/qDqxJds/4.png)
