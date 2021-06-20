@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Yuk Berkenalan dengan Bahasa Pemrograman Lua
-category: lua
+category: lima
 image: https://develop.spacemacs.org/layers/+lang/lua/img/lua.gif
 ---
 

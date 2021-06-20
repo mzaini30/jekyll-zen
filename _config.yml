@@ -5,6 +5,8 @@ plugins:
 
 permalink: :title/
 
+title: catatanzen.my.id
+
 twitter:
   username: zenia2020
   card: summary_large_image
