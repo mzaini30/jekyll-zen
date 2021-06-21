@@ -9,6 +9,10 @@ layout: default
         margin: auto;
         display: block;
     }
+    .prose code,
+    .prose pre {
+        font-size: inherit;
+    }
 </style>
 
 <a href='/daftar-isi/#{{ page.category | slugify }}' class="bg-amber-300 rounded-xl inline-block text-dark-500 my-3 py-1 px-3">{{ page.category }}</a>
