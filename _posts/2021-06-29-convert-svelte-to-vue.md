@@ -42,7 +42,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.s
 </script>
 
 <template>
-	<h1>Hello {{name.toUpperCase()}}!</h1>
+	<h1>Hello {%raw%}{{name.toUpperCase()}}{%endraw%}!</h1>
 </template>
 ```
 
