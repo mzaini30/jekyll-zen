@@ -54,7 +54,8 @@ const fs = require('fs')
 const { generateRoutes } = require('vue-route-generator')
 
 const code = generateRoutes({
-  pages: './src/pages'
+  pages: './src/pages',
+  importPrefix: '/src/pages/'
 })
 
 fs.writeFileSync('./src/routes.js', code)
@@ -68,30 +69,13 @@ const { generateRoutes } = require('vue-route-generator')
 const chokidar = require('chokidar');
 
 const perintah = () => fs.writeFileSync('./src/routes.js', generateRoutes({
-  pages: './src/pages'
+  pages: './src/pages',
+  importPrefix: '/src/pages/'
 }))
 
 const watcher = chokidar.watch('./src/pages')
 watcher.on('add', () => perintah())
 watcher.on('unlink', () => perintah())
-```
-
-### Setting `vite.config.js`
-
-```javascript
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import path from 'path'
-
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [vue()],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, '/src'),
-    }
-  }
-})
 ```
 
 ### Setting `src/main.js`
