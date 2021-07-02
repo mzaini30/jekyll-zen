@@ -18,7 +18,7 @@ Terus pilih Vue
 ### Install
 
 ```bash
-pnpm i -D vue-router@4 npm-run-all vue-route-generator
+pnpm i -D vue-router@4 npm-run-all vue-route-generator chokidar
 ```
 
 ### Setting `package.json` pada Bagian `scripts`
@@ -29,7 +29,7 @@ pnpm i -D vue-router@4 npm-run-all vue-route-generator
   "scripts": {
     "dev": "run-p dev:*",
     "dev:vite": "vite",
-    "dev:routify": "node routify.js",
+    "dev:routify": "node watch-routify.js",
     "build": "node routify.js && vite build",
     "serve": "vite preview"
   },
@@ -58,6 +58,22 @@ const code = generateRoutes({
 })
 
 fs.writeFileSync('./src/routes.js', code)
+```
+
+### Buat File `watch-routify.js`
+
+```javascript
+const fs = require('fs')
+const { generateRoutes } = require('vue-route-generator')
+const chokidar = require('chokidar');
+
+const perintah = () => fs.writeFileSync('./src/routes.js', generateRoutes({
+  pages: './src/pages'
+}))
+
+const watcher = chokidar.watch('./src/pages')
+watcher.on('add', () => perintah())
+watcher.on('unlink', () => perintah())
 ```
 
 ### Setting `vite.config.js`
