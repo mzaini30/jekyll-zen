@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cara Supaya Vue Auto Routing Seperti Nuxt
-image: 
+image: https://bhuh12.gitee.io/vue-router-tab/demo/img/logo.png
 category: vue
 ---
 
@@ -30,7 +30,7 @@ pnpm i -D vue-router@4 npm-run-all vue-route-generator
     "dev": "run-p dev:*",
     "dev:vite": "vite",
     "dev:routify": "node routify.js",
-    "build": "vite build",
+    "build": "node routify.js && vite build",
     "serve": "vite preview"
   },
   "dependencies": {
