@@ -9,7 +9,7 @@ Kalau bisa sih sejak mulai lahir. Lah kenapa?
 
 Soalnya, yang namanya ilmu agama itu kita pakai terus mulai dari lahir hingga kita tiada kelak. Kalau nggak diajarkan sedini mungkin, nanti akan susah untuk mengajarkannya. Ibaratnya itu, _alah bisa karena sudah biasa_. Kalau dibiasakan, maka akan mudah melakukannya.
 
-Lalu, kalau bisa memang abi dan umi itu bekerja sama dalam mendidik anak tentang ilmu agamanya. Jangan sampai keduanya senantiasa disibukkan oleh pekerjaan sehingga anaknya lebih dididik oleh game Mobile Legend daripada abi uminya.
+Lalu, kalau bisa memang abi dan umi itu bekerja sama dalam [mendidik anak](https://www.nimasachsani.my.id/) tentang ilmu agamanya. Jangan sampai keduanya senantiasa disibukkan oleh pekerjaan sehingga anaknya lebih dididik oleh game Mobile Legend daripada abi uminya.
 
 Makanya, kalau bisa memang kita sendiri juga jangan terlalu sibuk main HP aja. Biasakan untuk tidak memegang HP kecuali untuk sesuatu yang sangat penting seperti pekerjaan. Perbanyak waktu untuk membaca buku maupun berinteraksi dengan anak.
 
