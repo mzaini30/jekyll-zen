@@ -77,7 +77,7 @@ if (process.argv[2] == '-w') {
 import {Route, Router} from 'solid-app-router'
 import routes from './routes'
 
-export default function App(){
+export default function(){
   return <>
     <Router routes={routes}>
       <Route></Route>
@@ -89,7 +89,7 @@ export default function App(){
 ## Create `src/pages/index.jsx` File
 
 ```jsx
-export default function App(){
+export default function(){
 	return <>
 		<h1>Hello World</h1>
 	</>
