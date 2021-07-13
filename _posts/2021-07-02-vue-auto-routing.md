@@ -29,7 +29,7 @@ pnpm i -D vue-router@4 npm-run-all vue-route-generator chokidar
   "scripts": {
     "dev": "run-p dev:*",
     "dev:vite": "vite",
-    "dev:routify": "node watch-routify.js",
+    "dev:routify": "node routify.js -w",
     "build": "node routify.js && vite build",
     "serve": "vite preview"
   },
@@ -52,20 +52,6 @@ pnpm i -D vue-router@4 npm-run-all vue-route-generator chokidar
 ```javascript
 const fs = require('fs')
 const { generateRoutes } = require('vue-route-generator')
-
-const code = generateRoutes({
-  pages: './src/pages',
-  importPrefix: '/src/pages/'
-})
-
-fs.writeFileSync('./src/routes.js', code)
-```
-
-### Buat File `watch-routify.js`
-
-```javascript
-const fs = require('fs')
-const { generateRoutes } = require('vue-route-generator')
 const chokidar = require('chokidar');
 
 const perintah = () => fs.writeFileSync('./src/routes.js', generateRoutes({
@@ -73,9 +59,13 @@ const perintah = () => fs.writeFileSync('./src/routes.js', generateRoutes({
   importPrefix: '/src/pages/'
 }))
 
-const watcher = chokidar.watch('./src/pages')
-watcher.on('add', () => perintah())
-watcher.on('unlink', () => perintah())
+if (process.argv[2] == '-w') {
+  const watcher = chokidar.watch('./src/pages')
+  watcher.on('add', () => perintah())
+  watcher.on('unlink', () => perintah())
+} else {
+  generate()
+}
 ```
 
 ### Setting `src/main.js`

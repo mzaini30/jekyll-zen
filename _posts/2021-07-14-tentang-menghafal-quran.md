@@ -11,6 +11,23 @@ image: https://pngimg.com/uploads/quran/quran_PNG45.png
 
 1. Al-Quran adalah kalamullah. Dia adalah sumber dari agama Islam.
 2. Al-Quran adalah satu-satunya kitab suci yang selamat dari pengubahan isi
+3. Tak ada satupun yang bisa menyerupai Quran
+
+	1. Menyusun semacam Al-Quran secara keseluruhan (QS. At-Thur 52:34) 
+
+		فَلْيَأْتُوْا بِحَدِيْثٍ مِّثْلِهٖٓ اِنْ كَانُوْا صٰدِقِيْنَۗ
+
+	2. Menyusun sepuluh surah semacam yang ada dalam Al-Quran (QS. 11:13) 
+
+		اَمْ يَقُوْلُوْنَ افْتَرٰىهُ ۗقُلْ فَأْتُوْا بِعَشْرِ سُوَرٍ مِّثْلِهٖ مُفْتَرَيٰتٍ وَّادْعُوْا مَنِ اسْتَطَعْتُمْ مِّنْ دُوْنِ اللّٰهِ اِنْ كُنْتُمْ صٰدِقِيْنَ
+
+	3. Menyusun satu surah saja semacam yang ada dalam Al-Quran (QS. 10:38) 
+
+		اَمْ يَقُوْلُوْنَ افْتَرٰىهُ ۗ قُلْ فَأْتُوْا بِسُوْرَةٍ مِّثْلِهٖ وَادْعُوْا مَنِ اسْتَطَعْتُمْ مِّنْ دُوْنِ اللّٰهِ اِنْ كُنْتُمْ صٰدِقِيْنَ
+
+	4. Menyusun sesuatu seperti atau lebih kurang sama dengan 1 surah dari Al-Quran (QS. 2:23).
+
+		وَاِنْ كُنْتُمْ فِيْ رَيْبٍ مِّمَّا نَزَّلْنَا عَلٰى عَبْدِنَا فَأْتُوْا بِسُوْرَةٍ مِّنْ مِّثْلِهٖ ۖ وَادْعُوْا شُهَدَاۤءَكُمْ مِّنْ دُوْنِ اللّٰهِ اِنْ كُنْتُمْ صٰدِقِيْنَ
 
 ### Mengapa Menghafalkan Quran?
 
