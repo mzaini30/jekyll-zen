@@ -64,7 +64,7 @@ if (process.argv[2] == '-w') {
   watcher.on('add', () => perintah())
   watcher.on('unlink', () => perintah())
 } else {
-  generate()
+  perintah()
 }
 ```
 
