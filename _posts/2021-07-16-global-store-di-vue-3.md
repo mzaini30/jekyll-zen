@@ -39,7 +39,7 @@ Lalu, misalnya kita ingin menggunakan store tersebut, kita buat `src/pages/index
 </script>
 
 <template>
-	<p>{{counter}}</p>
+	<p>{%raw%}{{counter}}{%endraw%}</p>
 	<tambah-counter></tambah-counter>
 </template>
 ```
